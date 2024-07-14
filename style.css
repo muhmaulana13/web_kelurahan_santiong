@@ -1,0 +1,40 @@
+:root {
+    --primary : #00d5ff;
+    --secondary : #fff;
+    --bg : #18181B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: var(--bg);
+    color: var(--secondary);
+    min-height: 100vh;
+}
+
+/* navbar */
+.navbar{
+    padding: 1rem 6%;
+}
+
+.nav-link, .navbar-brand{
+    color: var(--secondary);
+    margin-right: 3rem;
+}
+
+.navbar-brand{
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: var(--primary);
+}
